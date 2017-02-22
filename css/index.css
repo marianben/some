@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+body {
+     background-image: url("../fone.jpg");/* Цвет фона и путь к файлу */
+     text-align:  center;
+     max-width: 1500px;
+     }
+
+p   {
+     font-family: "Georgia", serif;
+    }
+    
+li {
+    display: inline-block; /* Строчно-блочные элементы */
+    background: #0000FF; /* Цвет фона */
+    margin-right: 10px; /* Расстояние между пунктами меню */
+    -webkit-transform: skewX(-30deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(-30deg); /* Для Firefox */
+    -o-transform: skewX(-30deg); /* Для Opera */
+    -ms-transform: skewX(-30deg); /* Для IE */
+    transform: skewX(-30deg); /* CSS3 */
+    border: 2px solid #000; /* Рамка вокруг текста */
+    padding: 7px; /* Поля вокруг текста */
+   }
+     
+.thumb img  {
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 2px; /* Отступ справа */
+    margin-bottom: 2px; /* Отступ снизу */
+   }
+.photo {
+    padding-top: 1px;
+}
